@@ -1,14 +1,16 @@
 
 import React from "react";
-import Counter from "./Counter";
+import JSCounter from "./Counter";
+
+import { counter as PureCounter } from '../output/Counter'
 
 function App() {
   return (
     <div>
       <h1>My App</h1>
-      <Counter label="Count" />
-      <Counter label="Clicks" />
-      <Counter label="Interactions" />
+      <JSCounter label="Count" />
+      <PureCounter label="Clicks" />
+      <PureCounter label="Interactions" />
     </div>
   );
 }
