@@ -2,7 +2,7 @@
 import React from "react";
 import JSCounter from "./Counter";
 
-import { counter as PureCounter } from '../output/Counter'
+import { jsCounter as PureCounter } from "../output/Counter.Interop"
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <h1>My App</h1>
       <JSCounter label="Count" />
       <PureCounter label="Clicks" />
-      <PureCounter label="Interactions" />
+      <PureCounter label={null} />
     </div>
   );
 }
