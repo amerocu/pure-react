@@ -9,9 +9,9 @@ function App() {
   return (
     <div>
       <h1>My App</h1>
-      <JSCounter label="Count" />
-      <PureCounter label="Clicks" />
-      <PureCounterBasic label="Gools" />
+      <JSCounter label="JSCounter" />
+      <PureCounter label="PureCounter" />
+      <PureCounterBasic label="PureCounterBasic" />
     </div>
   );
 }

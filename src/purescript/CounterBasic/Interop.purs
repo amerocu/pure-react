@@ -1,16 +1,16 @@
 module CounterBasic.Interop where
 
 import Prelude
-
-import CounterBasic (Props, counter)
+import CounterBasic (Props, component, initialState, render)
 import Data.Maybe (fromMaybe)
 import Data.Nullable (Nullable, toMaybe)
-import React.Basic (JSX)
+import React.Basic (ReactComponent, toReactComponent)
 
-type JSProps = { label :: Nullable String }
+type JSProps
+  = { label :: Nullable String }
 
 jsPropsToProps :: JSProps -> Props
 jsPropsToProps { label } = { label: fromMaybe "Count" $ toMaybe label }
 
-jsCounter :: JSProps -> JSX
-jsCounter = counter <<< jsPropsToProps
+jsCounter :: ReactComponent JSProps
+jsCounter = toReactComponent jsPropsToProps component { initialState, render }
