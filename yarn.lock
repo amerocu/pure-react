@@ -8319,6 +8319,11 @@ purescript@0.13.2:
   dependencies:
     purescript-installer "^0.2.0"
 
+purty@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/purty/-/purty-5.0.1.tgz#2758262ab2e2303a74f42fe3968b7f835f907ec8"
+  integrity sha512-nTMJsGmsrrt6OG/LoiXK5WXs9G778GuTi6XTw6sa1KE9RLpZmO6IyP7XgIHQTihZL/hYZb8qVVJlGu3huorLIQ==
+
 q@^1.1.2:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"

@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "purescript": "0.13.2",
-    "spago": "0.8.4"
+    "spago": "0.8.4",
+    "purty": "^5.0.1"
   }
 }
